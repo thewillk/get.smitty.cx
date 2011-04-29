@@ -1,0 +1,1 @@
+This just redirects to smitty.cx/install.sh
