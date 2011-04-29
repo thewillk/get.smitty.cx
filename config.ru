@@ -1,6 +1,3 @@
-#require 'rubygems'
-#require 'rack'
+#require ./app.rb'
 
-run lambda { |env|
-	[301, {'Content-Type' => 'text/plain','Location' => 'http://smitty.cx/install.sh'}, 'See Ya!']
-}
+run Sinatra::Application
